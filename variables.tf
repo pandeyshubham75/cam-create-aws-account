@@ -32,3 +32,12 @@ variable "gov_cloud" {
   default = false
 }
 
+variable "parent_id" {
+  type = string
+  description = "(Required) Account Parent Organizational Unit"
+}
+
+variable monthly_budget {
+  type = number
+  default = 0
+}
